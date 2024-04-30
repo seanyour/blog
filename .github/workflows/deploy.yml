@@ -42,7 +42,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://seanyour.github.io/blog
     needs: build
     runs-on: ubuntu-latest
     name: Deploy
